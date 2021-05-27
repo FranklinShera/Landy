@@ -1,6 +1,6 @@
 <template>
-    <div class="navbar flex px-10 py-2 justify-between items-center ">
-        <ApplicationLogo classes="w-24"/>
+    <div class="navbar simcont">
+        <ApplicationLogo wi="100px"/>
 
          <div class="center-nav">
              <a href="">Home</a>
@@ -24,7 +24,5 @@
 </script>
 
 <style scoped>
- .center-nav a{
-     margin: 0px 20px;
- }
+
 </style>

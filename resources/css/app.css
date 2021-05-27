@@ -1,3 +1,54 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+
+/*GLOBALS*/
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+/*GLOBALS END*/
+
+
+
+/*NAVBAR*/
+
+.simcont{
+    @apply px-10;
+}
+
+.navbar{
+    @apply flex  py-2 justify-between items-center;
+}
+
+.center-nav a{
+    margin: 0px 20px;
+    @apply text-muteblack font-bold no-underline;
+}
+
+
+.nav-action{
+    @apply text-limegreen font-bold;
+}
+/*NAVBAR END*/
+
+
+
+/*HERO*/
+
+.hero{
+    min-height: 90vh;
+    @apply flex w-full items-center;
+}
+
+.cta-text{
+    @apply w-2/5;
+}
+
+.illustration{
+    min-height: 70vh;
+    @apply w-3/5 p-2;
+}
+/*HERO END*/

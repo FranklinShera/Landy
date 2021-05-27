@@ -1,5 +1,5 @@
 <template>
-    <svg id="Layer_1" :class="classes" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 834 321.6">
+    <svg id="Layer_1" :width="wi" :height="hi" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 834 321.6">
 
         <g id="LOGO">
             <g id="shapes">
@@ -42,7 +42,8 @@
 
     export default  {
         props: {
-            classes: String
+            wi: String,
+            hi: String
         }
     }
 
