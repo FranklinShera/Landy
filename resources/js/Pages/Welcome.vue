@@ -2,13 +2,13 @@
 
     <Navbar/>
 
-    <div class="hero simcont">
+    <div class="hero simcont ">
         <div class="cta-text">
 
             <div class="main-text">
-                Manage Your
-                Apartments
-                Like A Real
+                Manage Your<br/>
+                Apartments<br/>
+                Like A Real<br/>
                 Boss!
             </div>
 
@@ -18,8 +18,8 @@
             </div>
 
             <div class="cta-btns">
-                <button>Sign Up</button>
-                <button>Learn More</button>
+                <button class="plain-btn primary-btn">Sign Up</button>
+                <button class="plain-btn">Learn More</button>
             </div>
 
         </div>
@@ -28,6 +28,28 @@
 
         </div>
     </div>
+
+    <div class="features simcont">
+        <div class="feature-word">
+            <h1>
+                We Make<br/>
+                Management<br/>
+                Simple and<br/>
+                Robust.
+            </h1>
+
+            <p>
+                Our solution makes it easy to monitor
+                apartments , tenants payment progress,
+                payment balances and complains through
+                a simple and informative interface.
+            </p>
+        </div>
+        <div class="features-list">
+
+        </div>
+    </div>
+
 
 </template>
 

@@ -4,30 +4,46 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  font-family: "Segoe UI";
+}
+
+.simcont{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.plain-btn{
+  border-width: 0px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.primary-btn{
+  --tw-bg-opacity: 1;
+  background-color: rgba(23, 86, 86, var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
 
 /*GLOBALS END*/
 
 /*NAVBAR*/
 
-.simcont{
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
 .navbar{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 20px;
 }
 
 .center-nav a{
   margin: 0px 20px;
   font-weight: 700;
-  --tw-text-opacity: 1;
-  color: rgba(11, 12, 12, var(--tw-text-opacity));
+  color: #0B0C0C9f;
   text-decoration: none;
 }
 
@@ -45,18 +61,93 @@
   min-height: 90vh;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 100%;
 }
 
 .cta-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-right: 3.5rem;
   width: 40%;
+  height: 80%
+}
+
+.main-text{
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+  --tw-text-opacity: 1;
+  color: rgba(253, 120, 52, var(--tw-text-opacity));
+  line-height: 1.2;
+}
+
+.support-text{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: #0B0C0C9f;
+}
+
+.cta-btns{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  padding-right: 3.5rem;
+}
+
+.cta-btns button{
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .illustration{
   min-height: 70vh;
-  padding: 0.5rem;
+  margin-top: 8rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   width: 60%;
 }
 
 /*HERO END*/
+
+/*FEATURES*/
+
+.features{
+  min-height: 100vh;
+  display: flex;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.feature-word{
+  display: flex;
+  flex-direction: column;
+  padding-right: 1.5rem;
+  width: 33.333333%;
+}
+
+.feature-word h1{
+  --tw-text-opacity: 1;
+  color: rgba(15, 52, 52, var(--tw-text-opacity));
+  line-height: 1.5;
+}
+
+.feature-word p{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin-top: 2.5rem;
+  color: #0F3434bf;
+}
+
+.features-list{
+  width: 66.666667%;
+}
+
+/*FEATURES END*/
 

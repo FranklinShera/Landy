@@ -1,6 +1,6 @@
 <template>
-    <div class="navbar simcont">
-        <ApplicationLogo wi="100px"/>
+    <div class="navbar simcont ">
+        <ApplicationLogo wi="100" hi="35"/>
 
          <div class="center-nav">
              <a href="">Home</a>
