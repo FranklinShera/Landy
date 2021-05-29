@@ -45,8 +45,24 @@
                 a simple and informative interface.
             </p>
         </div>
-        <div class="features-list">
+        <div class="features-list ">
+            <div class="feature-card" v-for="feature in features">
 
+                <img class="feature-card-icon" :src="pathFormat( '/storage/icons/' , feature.icon)" />
+
+                <div class="feature-card-text">
+                    <h1>
+                        {{ feature.title }}
+                    </h1>
+                    <p>
+                        Our solution makes it easy to monitor
+                        apartments , tenants payment progress,
+                        payment balances and complains through
+                        a simple and informative interface.
+                    </p>
+                </div>
+
+            </div>
         </div>
     </div>
 
@@ -60,6 +76,37 @@
         components: {Navbar},
         props: {
 
+        },
+        data(){
+            return{
+                features:[
+                    {
+                        icon : "knowclients.svg",
+                        title :"Know Your Clients"
+                    },
+                    {
+                        icon : "brochure.svg",
+                        title :"Inventory Management"
+                    },
+                    {
+                        icon : "money_circulation.svg",
+                        title :"Minitor Cashflow"
+                    },
+                    {
+                        icon : "message_exchange.svg",
+                        title :"Reliable Information Exchange"
+                    },
+                    {
+                        icon : "clone.svg",
+                        title :"Direct Communication"
+                    },
+                ]
+            }
+        },
+        methods:{
+            pathFormat(path,file){
+                return path + file;
+            }
         }
     }
 </script>

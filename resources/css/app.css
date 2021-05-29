@@ -36,13 +36,20 @@
 
 .center-nav a{
     margin: 0px 20px;
-    @apply text-muteblack font-bold no-underline;
+    @apply text-muteblack font-bold no-underline ;
 }
 
 
 .nav-action{
     @apply text-limegreen font-bold;
 }
+
+
+.nav-action a{
+    @apply text-limegreen font-bold no-underline;
+}
+
+
 /*NAVBAR END*/
 
 
@@ -83,6 +90,8 @@
     min-height: 70vh;
     @apply w-3/5 px-4 mt-32;
 }
+
+
 /*HERO END*/
 
 
@@ -110,7 +119,26 @@
 
 
 .features-list{
-    @apply w-2/3;
+    @apply flex flex-wrap w-2/3;
 }
+
+.feature-card{
+    @apply w-1/3 p-4;
+}
+
+.feature-card img{
+    @apply h-24;
+    fill: #1a202c;
+}
+
+
+.feature-card-text h1{
+    @apply text-teal-3 text-lg;
+}
+
+.feature-card-text p{
+    @apply  text-xs text-muteblack;
+}
+
 
 /*FEATURES END*/

@@ -18498,7 +18498,32 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     Navbar: _Components_Navbar__WEBPACK_IMPORTED_MODULE_0__.default
   },
-  props: {}
+  props: {},
+  data: function data() {
+    return {
+      features: [{
+        icon: "knowclients.svg",
+        title: "Know Your Clients"
+      }, {
+        icon: "brochure.svg",
+        title: "Inventory Management"
+      }, {
+        icon: "money_circulation.svg",
+        title: "Minitor Cashflow"
+      }, {
+        icon: "message_exchange.svg",
+        title: "Reliable Information Exchange"
+      }, {
+        icon: "clone.svg",
+        title: "Direct Communication"
+      }]
+    };
+  },
+  methods: {
+    pathFormat: function pathFormat(path, file) {
+      return path + file;
+    }
+  }
 });
 
 /***/ }),
@@ -18525,7 +18550,7 @@ var _hoisted_1 = {
   "class": "navbar simcont "
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"center-nav\" data-v-4a80dbca><a href=\"\" data-v-4a80dbca>Home</a><a href=\"\" data-v-4a80dbca>Features</a><a href=\"\" data-v-4a80dbca>Pricing</a><a href=\"\" data-v-4a80dbca>FAQ</a></div><div class=\"nav-action\" data-v-4a80dbca> Register </div>", 2);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"center-nav\" data-v-4a80dbca><a href=\"\" data-v-4a80dbca>Home</a><a href=\"\" data-v-4a80dbca>Features</a><a href=\"\" data-v-4a80dbca>Pricing</a><a href=\"\" data-v-4a80dbca>FAQ</a></div><div class=\"nav-action\" data-v-4a80dbca><a href=\"\" class=\"text-limegreen\" data-v-4a80dbca>Register</a></div>", 2);
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
@@ -22939,14 +22964,49 @@ var _withId = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.withScopeId)("dat
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.pushScopeId)("data-v-317d1a6e");
 
-var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"hero simcont \" data-v-317d1a6e><div class=\"cta-text\" data-v-317d1a6e><div class=\"main-text\" data-v-317d1a6e> Manage Your<br data-v-317d1a6e> Apartments<br data-v-317d1a6e> Like A Real<br data-v-317d1a6e> Boss! </div><div class=\"support-text\" data-v-317d1a6e> Get all the analysis and alerts in a single convenient place. </div><div class=\"cta-btns\" data-v-317d1a6e><button class=\"plain-btn primary-btn\" data-v-317d1a6e>Sign Up</button><button class=\"plain-btn\" data-v-317d1a6e>Learn More</button></div></div><div class=\"illustration\" style=\"background:url(&#39;/storage/icons/buildings.svg&#39;) no-repeat;\" data-v-317d1a6e></div></div><div class=\"features simcont\" data-v-317d1a6e><div class=\"feature-word\" data-v-317d1a6e><h1 data-v-317d1a6e> We Make<br data-v-317d1a6e> Management<br data-v-317d1a6e> Simple and<br data-v-317d1a6e> Robust. </h1><p data-v-317d1a6e> Our solution makes it easy to monitor apartments , tenants payment progress, payment balances and complains through a simple and informative interface. </p></div><div class=\"features-list\" data-v-317d1a6e></div></div>", 2);
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"hero simcont \" data-v-317d1a6e><div class=\"cta-text\" data-v-317d1a6e><div class=\"main-text\" data-v-317d1a6e> Manage Your<br data-v-317d1a6e> Apartments<br data-v-317d1a6e> Like A Real<br data-v-317d1a6e> Boss! </div><div class=\"support-text\" data-v-317d1a6e> Get all the analysis and alerts in a single convenient place. </div><div class=\"cta-btns\" data-v-317d1a6e><button class=\"plain-btn primary-btn\" data-v-317d1a6e>Sign Up</button><button class=\"plain-btn\" data-v-317d1a6e>Learn More</button></div></div><div class=\"illustration\" style=\"background:url(&#39;/storage/icons/buildings.svg&#39;) no-repeat;\" data-v-317d1a6e></div></div>", 1);
+
+var _hoisted_2 = {
+  "class": "features simcont"
+};
+
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "feature-word"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h1", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" We Make"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Management"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Simple and"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Robust. ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, " Our solution makes it easy to monitor apartments , tenants payment progress, payment balances and complains through a simple and informative interface. ")], -1
+/* HOISTED */
+);
+
+var _hoisted_4 = {
+  "class": "features-list "
+};
+var _hoisted_5 = {
+  "class": "feature-card"
+};
+var _hoisted_6 = {
+  "class": "feature-card-text"
+};
+
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, " Our solution makes it easy to monitor apartments , tenants payment progress, payment balances and complains through a simple and informative interface. ", -1
+/* HOISTED */
+);
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
 var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Navbar = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Navbar");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Navbar), _hoisted_1], 64
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Navbar), _hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_4, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.features, function (feature) {
+    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+      "class": "feature-card-icon",
+      src: $options.pathFormat('/storage/icons/', feature.icon)
+    }, null, 8
+    /* PROPS */
+    , ["src"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h1", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(feature.title), 1
+    /* TEXT */
+    ), _hoisted_7])]);
+  }), 256
+  /* UNKEYED_FRAGMENT */
+  ))])])], 64
   /* STABLE_FRAGMENT */
   );
 });

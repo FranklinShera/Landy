@@ -53,6 +53,13 @@
   color: rgba(0, 170, 173, var(--tw-text-opacity));
 }
 
+.nav-action a{
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgba(0, 170, 173, var(--tw-text-opacity));
+  text-decoration: none;
+}
+
 /*NAVBAR END*/
 
 /*HERO*/
@@ -146,7 +153,32 @@
 }
 
 .features-list{
+  display: flex;
+  flex-wrap: wrap;
   width: 66.666667%;
+}
+
+.feature-card{
+  padding: 1rem;
+  width: 33.333333%;
+}
+
+.feature-card img{
+  height: 6rem;
+  fill: #1a202c;
+}
+
+.feature-card-text h1{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgba(15, 52, 52, var(--tw-text-opacity));
+}
+
+.feature-card-text p{
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: #0B0C0C9f;
 }
 
 /*FEATURES END*/

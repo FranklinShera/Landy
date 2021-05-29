@@ -10,7 +10,7 @@
          </div>
 
         <div class="nav-action">
-            Register
+            <a href="" class="text-limegreen">Register</a>
         </div>
     </div>
 </template>
