@@ -20,6 +20,75 @@
     @apply bg-teal-1 text-white;
 }
 
+
+
+
+
+/*FORM INPUT GROUP*/
+
+.input-group input[type="text"],.input-group input[type="email"],.input-group input[type="number"] ,.input-group input[type="password"]{
+    @apply appearance-none mt-3;
+    color: white;
+    background:
+        linear-gradient(90deg,#ffffff ,#ffffff) center bottom/100% 2px no-repeat ,
+        linear-gradient(90deg,#111111 ,#111111) left bottom/0 2px no-repeat,
+        linear-gradient(90deg,#ffffff ,#ffffff) left bottom/0 no-repeat;
+
+    transition: background-size .3s ease;
+    padding: 12px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+
+
+
+.input-group input:focus  {
+    color: black;
+    background-size: 100% 2px ,100% 2px , 100%;
+}
+
+
+.input-group select{
+    @apply my-2 appearance-none;
+
+    padding: 12px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border: 3px #F3F4F6cc solid;
+    outline: none;
+}
+
+
+
+
+.input-group label{
+    @apply text-xl font-semibold ;
+}
+
+
+.input-group textarea{
+    @apply mt-3;
+    border-radius: 3px;
+   padding: 12px;
+}
+
+
+
+.input-group input[type="file"]{
+    @apply appearance-none ;
+    padding: 12px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border: 3px #F3F4F6cc solid;
+    outline: none;
+}
+
+/*FORM INPUT GROUP END*/
+
+
 /*GLOBALS END*/
 
 
@@ -101,11 +170,11 @@
 
 .features{
     min-height: 100vh;
-    @apply flex py-28;
+    @apply flex py-28 bg-offlimegreen;
 }
 
 .feature-word{
-    @apply flex flex-col w-1/3 pr-6;
+    @apply flex flex-col w-1/3 pr-14;
 }
 
 .feature-word h1{
@@ -114,7 +183,7 @@
 }
 
 .feature-word p{
-    @apply text-teal-4 text-lg mt-10;
+    @apply text-teal-4 text-xl mt-10;
 }
 
 
@@ -127,13 +196,13 @@
 }
 
 .feature-card img{
-    @apply h-24;
+    @apply h-20;
     fill: #1a202c;
 }
 
 
 .feature-card-text h1{
-    @apply text-teal-3 text-lg;
+    @apply text-teal-3 text-base;
 }
 
 .feature-card-text p{
@@ -142,3 +211,121 @@
 
 
 /*FEATURES END*/
+
+
+
+
+/*HOW IT WORKS*/
+
+.how-it-works{
+    min-height: 100vh;
+
+    @apply flex flex-col items-center py-24;
+}
+.how-it-works > h1{
+       @apply  text-limegreen;
+}
+
+
+.how-to-steps{
+    @apply flex flex-col items-center mt-10;
+}
+
+
+.how-to-step{
+    @apply flex  justify-between items-center py-10 w-4/5;
+
+}
+
+.how-to-step-icon{
+    @apply h-28 w-1/3;
+}
+
+
+.how-to-step-description{
+    @apply  flex flex-col justify-center w-2/3;
+}
+
+.how-to-step-description > h1{
+    @apply  text-teal-1 text-xl;
+}
+
+
+.how-to-step-description p{
+    @apply text-muteblack  mt-2;
+}
+
+
+.btn-free-tour{
+    @apply bg-limegreen px-14 py-3 text-lg mt-14 font-bold border-0 rounded-full cursor-pointer text-white;
+}
+
+/*HOW IT WORKS END*/
+
+
+
+
+
+/*CONTACT FORM*/
+
+.contact-form{
+    min-height: 100vh;
+    @apply bg-teal-3 flex flex-col items-center py-20 text-white;
+}
+
+.contact-form h1{
+
+    @apply text-white ;
+}
+
+
+.contact-form form button{
+
+    @apply px-10 py-2 text-teal-3 mt-14 rounded-lg border-0 font-bold cursor-pointer;
+}
+
+
+.contact-form form{
+
+    @apply w-2/5 flex flex-col items-center;
+}
+
+
+.contact-form form .input-group{
+
+    @apply flex flex-col mt-8 w-full;
+}
+
+
+/*CONTACT FORM END*/
+
+
+
+
+
+/*FOOTER*/
+
+
+.footer{
+    @apply flex justify-between py-24 px-44;
+}
+
+
+.footer-item {
+    @apply flex mb-4 ;
+}
+
+.footer-right-side .footer-item {
+    @apply flex mb-4 items-center;
+}
+
+.footer-item img{
+    @apply h-10 mr-2;
+}
+
+
+.footer-left-side , .footer-middle ,.footer-left-side{
+    @apply w-1/3;
+}
+
+/*FOOTER END*/

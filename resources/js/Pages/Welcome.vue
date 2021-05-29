@@ -66,14 +66,70 @@
         </div>
     </div>
 
+    <div class="how-it-works">
 
+        <h1>How It Works</h1>
+
+        <div class="how-to-steps">
+
+            <div class="how-to-step" v-for="howStep in steps">
+                 <img class="how-to-step-icon" :src="pathFormat( '/storage/icons/' , howStep.icon)" />
+
+                <div class="how-to-step-description">
+
+                    <h1>{{ howStep.title }}</h1>
+
+                    <p>{{ howStep.desc }}</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <button class="btn-free-tour">Take A Free Tour</button>
+
+    </div>
+
+
+
+    <div class="contact-form">
+        <h1>CONTACT US</h1>
+
+        <form action="">
+
+            <div class="input-group">
+                <label for="name">NAME</label>
+                <input type="text" name="name" placeholder="Enter Name..." required>
+            </div>
+
+            <div class="input-group">
+                <label for="name">EMAIL</label>
+                <input type="email" name="emal" placeholder="Enter Name..." required>
+            </div>
+
+            <div class="input-group">
+                <label for="name">MESSAGE</label>
+                <textarea  name="message" cols="25"  rows="10" placeholder="Enter Name..." required></textarea>
+            </div>
+
+            <button >SEND</button>
+
+        </form>
+
+    </div>
+
+
+
+    <Footer/>
 </template>
 
 <script>
     import Navbar from "@/Components/Navbar";
+    import Footer from "@/Components/Footer";
 
     export default {
-        components: {Navbar},
+        components: {Footer, Navbar},
         props: {
 
         },
@@ -100,7 +156,44 @@
                         icon : "clone.svg",
                         title :"Direct Communication"
                     },
-                ]
+                ],
+                steps:[
+
+                    {
+                        icon : "registration.svg",
+                        title :"Create A Landlord Account With Us",
+                        desc : `From here you will now be able to pick your solution according
+                                to the number of clients and apartments you want to include in
+                                our system`
+                    },
+                    {
+                        icon : "residence.svg",
+                        title :"Add Your Apartments & Their Capacity",
+                        desc : `Add your apartments , sizes (2 bedromm , 3 bedroom etc) with their
+                                respective charges and available units.`
+                    },
+                    {
+                        icon : "mobile.svg",
+                        title :`Get Your Clients To Download Our App and Check In
+                                    Into Your Apartments`,
+                        desc : `After Clients/tenants check in to your apartment you can now
+                                allocate a room to the which will now be referencing your tenant.`
+                    },
+                    {
+                        icon : "get_cash.svg",
+                        title :`You Are Set To Start Collecting Funds/Rent From
+                                Clients/Tenants`,
+                        desc : `Rent collection will be at your fingertips now.`
+                    },
+                     {
+                        icon : "communication.svg",
+                        title :`Establish Informed Communications Directly With
+                                Your Clients`,
+                        desc : `Break down middlemen and get feedback from the source.`
+                    },
+
+
+                ],
             }
         },
         methods:{
