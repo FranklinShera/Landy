@@ -22,6 +22,7 @@ module.exports = {
                 muteblack: "#0B0C0C9f",
                 offlimegreen: "#EBFDFC",
                 myorange: "#FD7834",
+                shygray: "#F0F0F0",
             },
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],

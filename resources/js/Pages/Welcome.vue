@@ -133,7 +133,7 @@
         <p>All Packages Are Subscribed Monthly!</p>
 
         <div class="packages ">
-                <div class="package">
+                <div class="package starter-pack">
                     <h2 class="pack-title">STARTER</h2>
                     <div class="pack-features">
 
@@ -183,10 +183,11 @@
 
 
                     </div>
+                    <button>GET @ 7,000/=</button>
                 </div>
 
 
-                <div class="package">
+                <div class="package mid-tier-pack">
                     <h2 class="pack-title">MID-TIER</h2>
                     <div class="pack-features">
 
@@ -236,10 +237,11 @@
 
 
                     </div>
+                    <button>GET @ 15,000/=</button>
                 </div>
 
 
-                <div class="package">
+                <div class="package top-tier-pack">
                     <h2 class="pack-title">TOP-TIER</h2>
                     <div class="pack-features">
 
@@ -289,11 +291,28 @@
 
 
                     </div>
+                    <button>GET @ 27,000/=</button>
                 </div>
         </div>
     </div>
 
 
+    <div class="what-customers-say simcont">
+        <h1>What Our Customers Say</h1>
+        <div class="customer-remarks">
+            <div class="remark-card" v-for="cremark in customerRemarks">
+                <img :src="pathFormat('/storage/images/',cremark.profile)" alt="">
+                <h1>{{ cremark.name }}</h1>
+                <p >
+                    I like the service .It has made managing my
+                    apartments easy.I can just communicate directly
+                    to my clients and be sure that everybody will
+                    have received my message
+                </p>
+            </div>
+        </div>
+
+    </div>
 
 
     <div class="contact-form">
@@ -338,6 +357,30 @@
         },
         data(){
             return{
+
+                customerRemarks:[
+
+                    {
+                        name: "Omar Njagi",
+                        profile: "remark1.jpg"
+                    },
+
+                    {
+                        name: "Ann Kanyiva",
+                        profile: "remark2.jpg"
+                    },
+
+                    {
+                        name: "Stephen Kimani",
+                        profile: "remark3.jpg"
+                    },
+
+                    {
+                        name: "Franklin Shera",
+                        profile: "remark4.jpg"
+                    },
+
+                ],
                 features:[
                     {
                         icon : "knowclients.svg",
