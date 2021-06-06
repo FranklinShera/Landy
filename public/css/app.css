@@ -13,6 +13,7 @@
 }
 
 .plain-btn{
+  border-radius: 0.25rem;
   border-width: 0px;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -36,7 +37,10 @@
   margin-top: 0.75rem;
 }
 
-.input-group input[type="text"],.input-group input[type="email"],.input-group input[type="number"] ,.input-group input[type="password"] {
+.input-group input[type="text"],
+ .input-group input[type="email"],
+  .input-group input[type="number"],
+   .input-group input[type="password"] {
   color: white;
   background:
         linear-gradient(90deg,#ffffff ,#ffffff) center bottom/100% 2px no-repeat ,
@@ -327,6 +331,149 @@
 
 /*HOW IT WORKS END*/
 
+/*GET STARTED WITH US*/
+
+.get-started{
+  min-height: 100vh;
+  --tw-bg-opacity: 1;
+  background-color: rgba(235, 253, 252, var(--tw-bg-opacity));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.get-started h1{
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(15, 52, 52, var(--tw-text-opacity));
+}
+
+.get-started-tagline{
+  margin-top: 1rem;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(15, 52, 52, var(--tw-text-opacity));
+}
+
+.get-started .dashboard-mockup{
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 96% 96%;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  width: 80%;
+}
+
+/*GET STARTED WITH US END*/
+
+/*MOBILE APP SECTION*/
+
+.mobile-app{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.mobile-app .mobile-app-mockup{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+
+.mobile-app .mobile-app-mockup img{
+  height: 100%;
+}
+
+.mobile-app .mobile-app-info{
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.mobile-app .mobile-app-info .mobile-app-info-lead{
+  display: flex;
+  align-items: center;
+  height: 50%;
+}
+
+.mobile-app .mobile-app-info .mobile-app-info-lead h1{
+  font-size: 3rem;
+  line-height: 1;
+  --tw-text-opacity: 1;
+  color: rgba(15, 52, 52, var(--tw-text-opacity));
+}
+
+.mobile-app .mobile-app-info .mobile-app-info-download{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50%;
+}
+
+.mobile-app .mobile-app-info .mobile-app-info-download h2{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  --tw-text-opacity: 1;
+  color: rgba(15, 52, 52, var(--tw-text-opacity));
+}
+
+.mobile-app .mobile-app-info .mobile-app-info-download .download-providers{
+  display: flex;
+  align-items: center;
+}
+
+.mobile-app .mobile-app-info .mobile-app-info-download .download-providers img{
+  width: 240px;
+}
+
+/*MOBILE APP SECTION END*/
+
+/*PICK YOUR PACKAGE*/
+
+.pick-your-package{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.pick-your-package > h1{
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(15, 52, 52, var(--tw-text-opacity));
+}
+
+.pick-your-package > p{
+  margin-top: 1rem;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(15, 52, 52, var(--tw-text-opacity));
+}
+
+.pick-your-package .packages{
+  min-height: 60vh;
+  min-width: 80vw;
+  --tw-border-opacity: 1;
+  border-color: rgba(253, 120, 52, var(--tw-border-opacity));
+  border-width: 1px;
+  display: flex;
+}
+
+.pick-your-package .packages .package{
+  width: 33.333333%;
+}
+
+/*PICK YOUR PACKAGE END*/
+
 /*CONTACT FORM*/
 
 .contact-form{
@@ -352,6 +499,8 @@
   border-width: 0px;
   cursor: pointer;
   font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
   margin-top: 3.5rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;

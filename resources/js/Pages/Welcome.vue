@@ -93,6 +93,58 @@
 
 
 
+    <div class="get-started">
+        <h1>Get Started With Us <br/> Now</h1>
+        <p class="get-started-tagline">
+            Get your business to efficiency and reliability
+        </p>
+        <div class="dashboard-mockup" style="background-image: url('/storage/images/dash-mock.png')">
+
+        </div>
+    </div>
+
+
+
+    <div class="mobile-app simcont">
+        <div class="mobile-app-mockup" >
+            <img src="/storage/images/phone_mock.png" alt="Landy Mobile App">
+        </div>
+
+        <div class="mobile-app-info">
+            <div class="mobile-app-info-lead">
+                <h1>We Lead Customers To You</h1>
+            </div>
+            <div class="mobile-app-info-download">
+                <h2>Get Our Mobile App</h2>
+
+                <div class="download-providers">
+                    <img src="/storage/images/appstore.png" alt="AppStore Link">
+                    <img src="/storage/images/playstore.png" class="ml-6" alt="PlayStore Link">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="pick-your-package">
+        <h1>Pick Your Desired Package</h1>
+        <p>All Packages Are Subscribed Monthly!</p>
+
+        <div class="packages ">
+                <div class="package">
+                    <h2 class="pack-title">STARTER</h2>
+                    <div class="pack-features">
+
+                    </div>
+                </div>
+        </div>
+    </div>
+
+
+
+
     <div class="contact-form">
         <h1>CONTACT US</h1>
 
