@@ -137,6 +137,157 @@
                     <h2 class="pack-title">STARTER</h2>
                     <div class="pack-features">
 
+                        <div class="pack-feature">
+                            <img src="/storage/icons/ok.svg" alt="pro feature">
+                            <p>Up To 3 Apartments</p>
+                        </div>
+
+
+                        <div class="pack-feature">
+                            <img src="/storage/icons/ok.svg" alt="pro feature">
+                            <p>Up To 60 Tenants</p>
+                        </div>
+
+
+                        <div class="pack-feature">
+                            <img src="/storage/icons/cancel.svg" alt="con feature">
+                            <p>Tenant Communication</p>
+                        </div>
+
+                        <div class="pack-feature">
+                            <img src="/storage/icons/cancel.svg" alt="con feature">
+                            <p>Room Multi-Assign</p>
+                        </div>
+
+                        <div class="pack-feature">
+                            <img src="/storage/icons/ok.svg" alt="pro feature">
+                            <p>Up To 3 Apartments</p>
+                        </div>
+
+
+                        <div class="pack-feature">
+                            <img src="/storage/icons/ok.svg" alt="pro feature">
+                            <p>Up To 60 Tenants</p>
+                        </div>
+
+
+                        <div class="pack-feature">
+                            <img src="/storage/icons/cancel.svg" alt="con feature">
+                            <p>Tenant Communication</p>
+                        </div>
+
+                        <div class="pack-feature">
+                            <img src="/storage/icons/cancel.svg" alt="con feature">
+                            <p>Room Multi-Assign</p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <div class="package">
+                    <h2 class="pack-title">MID-TIER</h2>
+                    <div class="pack-features">
+
+                        <div class="pack-feature">
+                            <img src="/storage/icons/ok.svg" alt="pro feature">
+                            <p>Up To 3 Apartments</p>
+                        </div>
+
+
+                        <div class="pack-feature">
+                            <img src="/storage/icons/ok.svg" alt="pro feature">
+                            <p>Up To 60 Tenants</p>
+                        </div>
+
+
+                        <div class="pack-feature">
+                            <img src="/storage/icons/ok.svg" alt="pro feature">
+                            <p>Tenant Communication</p>
+                        </div>
+
+                        <div class="pack-feature">
+                            <img src="/storage/icons/cancel.svg" alt="con feature">
+                            <p>Room Multi-Assign</p>
+                        </div>
+
+                        <div class="pack-feature">
+                            <img src="/storage/icons/ok.svg" alt="pro feature">
+                            <p>Up To 3 Apartments</p>
+                        </div>
+
+
+                        <div class="pack-feature">
+                            <img src="/storage/icons/ok.svg" alt="pro feature">
+                            <p>Up To 60 Tenants</p>
+                        </div>
+
+
+                        <div class="pack-feature">
+                            <img src="/storage/icons/ok.svg" alt="pro feature">
+                            <p>Tenant Communication</p>
+                        </div>
+
+                        <div class="pack-feature">
+                            <img src="/storage/icons/cancel.svg" alt="con feature">
+                            <p>Room Multi-Assign</p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <div class="package">
+                    <h2 class="pack-title">TOP-TIER</h2>
+                    <div class="pack-features">
+
+                        <div class="pack-feature">
+                            <img src="/storage/icons/ok.svg" alt="pro feature">
+                            <p>Up To 3 Apartments</p>
+                        </div>
+
+
+                        <div class="pack-feature">
+                            <img src="/storage/icons/ok.svg" alt="pro feature">
+                            <p>Up To 60 Tenants</p>
+                        </div>
+
+
+                        <div class="pack-feature">
+                            <img src="/storage/icons/ok.svg" alt="pro feature">
+                            <p>Tenant Communication</p>
+                        </div>
+
+                        <div class="pack-feature">
+                            <img src="/storage/icons/ok.svg" alt="pro feature">
+                            <p>Room Multi-Assign</p>
+                        </div>
+
+                        <div class="pack-feature">
+                            <img src="/storage/icons/ok.svg" alt="pro feature">
+                            <p>Up To 3 Apartments</p>
+                        </div>
+
+
+                        <div class="pack-feature">
+                            <img src="/storage/icons/ok.svg" alt="pro feature">
+                            <p>Up To 60 Tenants</p>
+                        </div>
+
+
+                        <div class="pack-feature">
+                            <img src="/storage/icons/ok.svg" alt="pro feature">
+                            <p>Tenant Communication</p>
+                        </div>
+
+                        <div class="pack-feature">
+                            <img src="/storage/icons/ok.svg" alt="pro feature">
+                            <p>Room Multi-Assign</p>
+                        </div>
+
+
                     </div>
                 </div>
         </div>

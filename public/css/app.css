@@ -461,15 +461,41 @@
 
 .pick-your-package .packages{
   min-height: 60vh;
-  min-width: 80vw;
+  width: 50vw;
   --tw-border-opacity: 1;
   border-color: rgba(253, 120, 52, var(--tw-border-opacity));
   border-width: 1px;
   display: flex;
+  margin-top: 3.5rem;
 }
 
 .pick-your-package .packages .package{
   width: 33.333333%;
+}
+
+.package .pack-title{
+  --tw-text-opacity: 1;
+  color: rgba(15, 52, 52, var(--tw-text-opacity));
+}
+
+.package .pack-features{
+  margin-top: 1rem;
+}
+
+.package .pack-features .pack-feature{
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.package .pack-features .pack-feature img{
+  height: 1rem;
+}
+
+.package .pack-features .pack-feature p{
+  display: inline;
+  margin-left: 0.5rem;
 }
 
 /*PICK YOUR PACKAGE END*/

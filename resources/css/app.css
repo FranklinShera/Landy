@@ -392,13 +392,44 @@
 
 .pick-your-package .packages{
     min-height: 60vh;
-    min-width: 80vw;
-    @apply border border-myorange flex;
+    width: 50vw;
+    @apply border border-myorange flex mt-14;
 }
 
 .pick-your-package .packages .package{
     @apply w-1/3;
 }
+
+.package .pack-title{
+
+    @apply text-teal-3;
+}
+
+
+.package .pack-features{
+
+    @apply mt-4;
+
+}
+
+.package .pack-features .pack-feature{
+
+    @apply flex items-center my-2;
+
+}
+
+
+.package .pack-features .pack-feature img{
+    @apply h-4;
+}
+
+.package .pack-features .pack-feature p{
+    @apply ml-2 inline;
+}
+
+
+
+
 /*PICK YOUR PACKAGE END*/
 
 
