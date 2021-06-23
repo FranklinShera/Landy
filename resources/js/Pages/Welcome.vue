@@ -55,10 +55,10 @@
                         {{ feature.title }}
                     </h1>
                     <p>
-                        Our solution makes it easy to monitor
-                        apartments , tenants payment progress,
-                        payment balances and complains through
-                        a simple and informative interface.
+                        Our solution makes it easy to monitor<br>
+                        apartments , tenants payment progress,<br>
+                        payment balances and complains through<br>
+                        a simple and informative interface.<br>
                     </p>
                 </div>
 

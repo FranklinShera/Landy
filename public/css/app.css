@@ -340,15 +340,30 @@
   --tw-bg-opacity: 1;
   background-color: rgba(235, 253, 252, var(--tw-bg-opacity));
   display: flex;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  flex-direction: column;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+  .features {
+    flex-direction: row;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
 }
 
 .feature-word{
   display: flex;
   flex-direction: column;
-  padding-right: 3.5rem;
-  width: 33.333333%;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .feature-word {
+    padding-right: 3.5rem;
+    width: 33.333333%;
+  }
 }
 
 .feature-word h1{
@@ -357,27 +372,81 @@
   line-height: 1.5;
 }
 
+.feature-word h1 br{
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .feature-word h1 br {
+    display: block;
+  }
+}
+
 .feature-word p{
   font-size: 1.25rem;
   line-height: 1.75rem;
+  margin-bottom: 2rem;
   margin-top: 2.5rem;
   color: #0F3434bf;
 }
 
+@media (min-width: 768px) {
+  .feature-word p {
+    margin-bottom: 0px;
+  }
+}
+
 .features-list{
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  width: 66.666667%;
+}
+
+@media (min-width: 768px) {
+  .features-list {
+    flex-direction: row;
+    width: 66.666667%;
+  }
 }
 
 .feature-card{
-  padding: 1rem;
-  width: 33.333333%;
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .feature-card {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 1rem;
+    width: 33.333333%;
+  }
 }
 
 .feature-card img{
-  height: 5rem;
+  height: 3rem;
+}
+
+@media (min-width: 768px) {
+  .feature-card img {
+    height: 5rem;
+  }
+}
+
+.feature-card img {
   fill: #1a202c;
+}
+
+.feature-card-text{
+  margin-left: 1rem;
+}
+
+@media (min-width: 768px) {
+  .feature-card-text {
+    margin-left: 0px;
+  }
 }
 
 .feature-card-text h1{
@@ -391,6 +460,16 @@
   font-size: 0.75rem;
   line-height: 1rem;
   color: #0B0C0C9f;
+}
+
+.feature-card-text p br{
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .feature-card-text p br {
+    display: block;
+  }
 }
 
 /*FEATURES END*/
