@@ -148,7 +148,7 @@
 }
 
 .cta-text{
-    @apply w-4/5 p-0 flex flex-col justify-around sm:pr-14 md:w-1/2 md:text-5xl md:pr-2;
+    @apply md:w-4/5 p-0 flex flex-col justify-around sm:pr-14 md:w-1/2 md:text-5xl md:pr-2;
     height: 80%
 }
 
@@ -260,7 +260,7 @@
 .how-it-works{
     min-height: 100vh;
 
-    @apply flex flex-col items-center py-24;
+    @apply flex flex-col items-center py-16 md:py-24;
 }
 .how-it-works > h1{
        @apply  text-teal-3;
@@ -268,31 +268,31 @@
 
 
 .how-to-steps{
-    @apply flex flex-col items-center mt-10;
+    @apply flex flex-col items-center mt-4 md:mt-10;
 }
 
 
 .how-to-step{
-    @apply flex  justify-between items-center py-10 w-4/5;
+    @apply flex  justify-between items-center py-6 md:py-10 w-85/100;
 
 }
 
 .how-to-step-icon{
-    @apply h-28 w-1/3;
+    @apply h-16 md:h-28 w-2/5 md:w-1/3;
 }
 
 
 .how-to-step-description{
-    @apply  flex flex-col justify-center w-2/3;
+    @apply  flex flex-col justify-center w-3/5 md:w-2/3;
 }
 
 .how-to-step-description > h1{
-    @apply  text-teal-1 text-xl;
+    @apply  text-teal-1 text-base md:text-xl;
 }
 
 
 .how-to-step-description p{
-    @apply text-muteblack  mt-2;
+    @apply text-sm md:text-base text-muteblack  mt-2;
 }
 
 
