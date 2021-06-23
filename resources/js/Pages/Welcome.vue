@@ -332,7 +332,7 @@
 
             <div class="input-group">
                 <label for="name">MESSAGE</label>
-                <textarea  name="message" cols="25"  rows="10" placeholder="Enter Name..." required></textarea>
+                <textarea  name="message" cols="25"  rows="10" placeholder="Type Your Message..." required></textarea>
             </div>
 
             <button >SEND</button>
@@ -379,6 +379,7 @@
                         name: "Franklin Shera",
                         profile: "remark4.jpg"
                     },
+
 
                 ],
                 features:[
